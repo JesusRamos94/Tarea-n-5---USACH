@@ -11,7 +11,7 @@ const sequenceFibonacci = (number) => {
 
     console.log("Fibonacci =>", fibonacci);
     console.log("Pares =>", fibonacci.filter(e => e % 2 === 0));
-    console.log("Impares =>", fibonacci.filter(e => e % 3 === 0));
+    console.log("Impares =>", fibonacci.filter(e => e % 2 !== 0));
 
 };
 
