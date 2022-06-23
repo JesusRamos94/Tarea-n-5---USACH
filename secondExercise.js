@@ -2,9 +2,7 @@
 
 const pokemones = ['Pikachu','Charmander','Bulbasaur','Squirtle'];
 
-const newPokemonArray = ( pokemon ) => {
-return pokemon.map(e => e.toUpperCase());
-};
+const newPokemonArray = ( pokemon ) =>  pokemon.map(e => e.toUpperCase());
 
 console.log(newPokemonArray(pokemones));
 

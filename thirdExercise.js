@@ -31,8 +31,6 @@ const pokemones = [
     }
 ];
 
-const newPokemonArray = (pokemon) => {
-    return pokemon.filter(e => e.tipo === 'Fuego');
-};
+const newPokemonArray = (pokemon) => (pokemon.filter(e => e.tipo === 'Fuego'));
 
 console.log(newPokemonArray(pokemones));
